@@ -1,7 +1,6 @@
 import ProjectCards from "./ProjectCards";
 
 function Projects(){
-   
       const projectDetails = {
         evpower: 
         {title:'EvPowehouse', 
