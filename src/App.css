@@ -1,0 +1,56 @@
+input[type=radio] {
+    display: none;
+  }
+.hero-banner{
+    max-width: 100%;
+    background: #f0faffe8;
+}
+.container-fluid{
+    border-radius: 5px;
+    max-width: 1200px;
+}
+.col-img{
+    background-image: url(/src//assets/gradirnt\ wobble.png);
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position-y: -5em ;
+}
+.navbar{
+ background-color: #f0faffe8;
+}
+img{
+float: right;
+}
+.card{
+    margin: 1em 1em;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+    border-color: white;
+}
+.card-img-top{
+  height: 200px; /* this will maintain the aspect ratio */
+  object-fit: cover;
+}
+.about-img{
+    border-radius: 30% 70%;
+}
+
+.about-cont{
+    background-color: #d2e6ff77;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+hr {
+    height: 2px;
+    background: linear-gradient(to right, #007bff, #001aff);
+    border: none;
+    margin: 10px 0;
+  }
+
+  .overview{
+    font-size: 3rem;
+    background: -webkit-linear-gradient(145deg,black,#007bff, #001aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    letter-spacing: 5px;
+  }
