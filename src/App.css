@@ -31,11 +31,10 @@ float: right;
   object-fit: cover;
 }
 .about-img{
-    border-radius: 30% 70%;
+    border-radius: 42% 63%;
 }
 
 .about-cont{
-    background-color: #d2e6ff77;
     padding-top: 5em;
     padding-bottom: 5em;
 }
@@ -46,11 +45,39 @@ hr {
     margin: 10px 0;
   }
 
-  .overview{
-    font-size: 3rem;
-    background: -webkit-linear-gradient(145deg,black,#007bff, #001aff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .overviews{
+    font-size: 2.5rem;
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
+  }
+  .carousel-control-next-icon ,  .carousel-control-prev-icon{
+    background-color:rgb(0, 0, 0); 
+    border-radius: 50px;
+    background-size: 100% 55% !important;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    position: relative !important;
+    width: 11% !important;
+  }
+  .inner-section{
+    padding: 2em 2em 4em 2em;
+    background-color: #b2deff65;
+    border-radius: 5px;
+    box-shadow: 2px 2px 6px -2px rgb(0 0 0 / 46%);
+  }
+  .nav-container{
+    display: flex;
+    justify-content: center;
+    margin-top: -65px;
+    gap: 1em;
+  }
+
+  @media (max-width: 700px) {
+    .nav-container{
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        padding-bottom: 2em;
+        padding-top: 1em;
+      }
   }
